@@ -1,3 +1,4 @@
+// 예제 5-9: 인터페이스를 구현하고 동시에 클래스를 상속받는 사례
 package src.example.chap05;
 interface PhoneInterface1 { // 인터페이스 선언
     final int TIMEOUT = 10000; // 상수 필드 선언

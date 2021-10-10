@@ -1,4 +1,4 @@
-//예제: 5-8 인터페이스 구현
+// 예제: 5-8 인터페이스 구현
 package src.example.chap05;
 
 interface PhoneInterface { // 인터페이스 선언

@@ -1,4 +1,4 @@
-//예제 5-2: 상속 관계에 있는 클래스 간 멤버 접근
+// 예제 5-2: 상속 관계에 있는 클래스 간 멤버 접근
 package src.example.chap05;
 
 class Person{

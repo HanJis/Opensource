@@ -1,3 +1,4 @@
+// 예제 5-4 : instanceof 연산자 활용
 package src.example.chap05;
 
 class Person1{ }

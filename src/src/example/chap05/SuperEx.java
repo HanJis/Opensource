@@ -1,4 +1,4 @@
-//예제 5-3 : super()를 활용한 ColorPoint 작성
+// 예제 5-3: super()를 활용한 ColorPoint 작성
 package src.example.chap05;
 
 class Point1 {

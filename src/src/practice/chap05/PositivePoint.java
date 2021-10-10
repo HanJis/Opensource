@@ -14,7 +14,6 @@ class Point1{
         }
     }
 }
-
 public class PositivePoint extends Point1{
     public PositivePoint(){
         super();

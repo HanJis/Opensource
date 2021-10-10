@@ -1,5 +1,6 @@
 //실습5-10
 package src.practice.chap05;
+
 abstract class PairMap{
     protected String keyArray [];//key 들을 저장하는 배열
     protected String valueArray [];//value 들을 저장하는 배열

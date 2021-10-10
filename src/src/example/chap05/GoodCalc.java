@@ -1,4 +1,4 @@
-//예제 5-7 : 추상 클래스의 구현 연습
+// 예제 5-7: 추상 클래스의 구현 연습
 package src.example.chap05;
 abstract class Calculator {
     public abstract int add(int a, int b);

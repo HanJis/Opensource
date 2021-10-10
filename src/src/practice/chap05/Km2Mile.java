@@ -4,7 +4,6 @@ package src.practice.chap05;
 import java.util.Scanner;
 
 abstract class Converter{
-
     public double Change(int km,double mile){
         return km/mile;
     }

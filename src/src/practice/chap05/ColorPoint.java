@@ -1,7 +1,6 @@
 //실습5-06
 package src.practice.chap05;
 
-
 class Point{
     private int x, y;
     public Point(){

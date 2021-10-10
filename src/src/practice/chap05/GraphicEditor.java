@@ -20,6 +20,7 @@ class Line extends Shape1{
 }
 class Rect extends Shape1{
     String string = "Rect";
+
     @Override
     public void draw() {
         System.out.println(string);
@@ -27,6 +28,7 @@ class Rect extends Shape1{
 }
 class Circle extends Shape1{
     String string = "Circle";
+
     @Override
     public void draw() {
         System.out.println(string);

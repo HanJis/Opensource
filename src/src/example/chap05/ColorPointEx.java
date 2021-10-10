@@ -1,4 +1,4 @@
-//예제 5-1 : 클래스 상속 만들기 - Point와 ColorPoint 클래스
+// 예제 5-1: 클래스 상속 만들기 - Point와 ColorPoint 클래스
 package src.example.chap05;
 
 

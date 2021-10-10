@@ -1,4 +1,4 @@
-//예제 5-6 : 메소드 오버라이딩
+// 예제 5-6: 메소드 오버라이딩
 package src.example.chap05;
 class Weapon {
     protected int fire() {

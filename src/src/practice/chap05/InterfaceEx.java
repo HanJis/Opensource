@@ -1,7 +1,6 @@
 //실습5-14
 package src.practice.chap05;
 
-
 interface Shape{
     final double PI =3.14; //상수
     void draw(); //도형을 그리는 추상 메소드
