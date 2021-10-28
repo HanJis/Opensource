@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Vector;
 
 public class IteratorEx {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         //정수 값만 다루는 제네릭 벡터 생성
         Vector<Integer> v = new Vector<Integer>();
         v.add(5);// 5삽입

@@ -21,7 +21,7 @@ class GStack<T>{
         return (T)stck[tos];
     }
 }
-public class MyStack {
+public class MyStack{
     public static void main(String[] args) {
         GStack<String> stringStack = new GStack<String>();
         stringStack.push("seoul");

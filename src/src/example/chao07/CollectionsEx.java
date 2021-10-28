@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class CollectionsEx {
+public class CollectionsEx{
     static void printList(LinkedList <String> l){
         Iterator<String> iterator = l.iterator();
         while (iterator.hasNext()){

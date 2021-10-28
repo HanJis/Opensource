@@ -4,7 +4,7 @@ package src.example.chao07;
 import java.util.HashMap;
 import java.util.Scanner;
 
-class Student { //학생을 표현하는 클래스
+class Student{ //학생을 표현하는 클래스
     int id;
     String tel;
     public Student(int id, String tel){
@@ -20,7 +20,7 @@ class Student { //학생을 표현하는 클래스
         return tel;
     }
 }
-public class HashMapStudentEx {
+public class HashMapStudentEx{
     public static void main(String[] args) {
         //학생 이름과 Student 객체를 쌍으로 저장하는 HashMap 컬렉션 생성
         HashMap<String, Student> map = new HashMap<String, Student>();

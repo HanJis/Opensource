@@ -1,7 +1,7 @@
 //예제7-10
 package src.example.chao07;
 
-public class GenericMethodExample {
+public class GenericMethodExample{
     public static <T> GStack<T> reverse(GStack<T> a){
         GStack<T> s = new GStack<T>();
         while(true){

@@ -4,8 +4,8 @@ package src.example.chao07;
 import java.util.HashMap;
 import java.util.*;
 
-public class HashMapScoreEx {
-    public static void main(String[] args) {
+public class HashMapScoreEx{
+    public static void main(String[] args){
         //사용자 이름과 점수를 기록하는 HashMap ㅋㄹ렉션 생성
         HashMap<String, Integer> scoreMap =
                 new HashMap<String, Integer>();

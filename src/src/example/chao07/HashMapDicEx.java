@@ -4,7 +4,7 @@ package src.example.chao07;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class HashMapDicEx {
+public class HashMapDicEx{
     public static void main(String[] args) {
         //영어 단어와 한글 단어의 쌍을 저장하는 HashMap 컬렉션 생성
         HashMap<String, String> dic=

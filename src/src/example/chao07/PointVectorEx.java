@@ -3,7 +3,7 @@ package src.example.chao07;
 
 import java.util.Vector;
 
-class Point {
+class Point{
     private int x, y;
     public Point(int x, int y) {
         this.x = x;

@@ -3,7 +3,7 @@ package src.example.chao07;
 
 import java.util.Vector;
 
-public class VectorEx {
+public class VectorEx{
     public static void main(String[] args) {
         //정수 값만 다루는 제네릭 벡터 생성
         Vector<Integer> v = new Vector<Integer>();
