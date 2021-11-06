@@ -9,18 +9,18 @@ public class systemline {
         public static void main(String[] args) {
             System.out.println("c:\\windows\\system.ini 파일을 읽어 출력합니다.");
             FileReader fin = null;
-            int i=1;
+            int lineNumber=1;
             try {
                 fin = new FileReader("c:\\windows\\system.ini");
-                Scanner scanner = new Scanner(fin);
-                while (scanner.hasNext()) {
-                    String line = scanner.nextLine();
-                    System.out.print(i+": ");
+                Scanner fscanner = new Scanner(fin);
+                while (fscanner.hasNext()) {
+                    String line = fscanner.nextLine();
+                    System.out.printf("%2d: ", lineNumber);
                     System.out.println(line);
-                    i++;
+                    lineNumber++;
                 }
                 fin.close();
-                scanner.close();
+                fscanner.close();
             }
             catch (IOException e) {
                 System.out.println("입출력 오류");
